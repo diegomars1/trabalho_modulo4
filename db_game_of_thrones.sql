@@ -10,11 +10,11 @@ CREATE TABLE GOT_episodes (
     PRIMARY KEY (id)
 );
 
-/*Quantas temporadas a série possui?*/
-SELECT COUNT(DISTINCT season) AS quantidade_de_temporadas FROM got_episodes;
+/*Qual é o episódio mais longo ?*/
+SELECT COUNT(DISTINCT season) AS quantidade_de_episódios FROM got_episodes;
 
-/*Quantos episódios a série possui?*/
-SELECT COUNT(episode) AS quantidade_de_episódios FROM got_episodes;
+/*Qual é o pior episódio?*/
+SELECT COUNT(episode) AS avaliações_de_episódios FROM got_episodes;
 
 /*Quantos episódios cada temporada possui?*/
 SELECT season, COUNT(episode) AS quantidade_de_episódios_por_temporada FROM got_episodes GROUP BY season;
