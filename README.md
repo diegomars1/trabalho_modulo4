@@ -27,6 +27,23 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 
 
+Abaixo consta o script de criação do banco de dados .
+
+CREATE DATABASE db_game_of_thrones;
+
+USE db_game_of_thrones;
+
+CREATE DATABASE db_game_of_thrones;
+USE db_game_of_thrones;
+CREATE TABLE GOT_episodes (
+    id INT NOT NULL AUTO_INCREMENT,
+    season INT NOT NULL,
+    episode INT NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    rating DECIMAL(10 , 1) NOT NULL,
+    duration INT NOT NULL,
+    PRIMARY KEY (id)
+);
 
 
 
