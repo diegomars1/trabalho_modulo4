@@ -10,16 +10,16 @@ CREATE TABLE GOT_episodes (
     PRIMARY KEY (id)
 );
 
-/*Qual o nome do único dragão de Daenerys que ficou vivo ?*/
+/*Quantas horas possui a temporada 8 de game of Thornes?*/
 SELECT COUNT(DISTINCT season) AS quantidade_de_episódios FROM got_episodes;
 
-/*Quantas horas possui a temporada 8 de game of Thornes?*/
+/*Quantos episódios a série possuí?*/
 SELECT COUNT(episode) AS avaliações_de_episódios FROM got_episodes;
 
-/*Qual temporada e mais bem avaliada pelo público*/
+/*Qual temporada e mais bem avaliada pelo público?*/
 SELECT season, COUNT(episode) AS quantidade_de_episódios_por_temporada FROM got_episodes GROUP BY season;
 
-/*Qual temporada e mais bem avaliada pelo público**/
+/*Qual episódio ganhou destaque na série?*/
 SELECT * FROM got_episodes WHERE  season = 1  ORDER BY rating DESC LIMIT 1;
 SELECT * FROM got_episodes WHERE  season = 2  ORDER BY rating DESC LIMIT 1;
 SELECT * FROM got_episodes WHERE  season = 3  ORDER BY rating DESC LIMIT 1;
@@ -29,6 +29,6 @@ SELECT * FROM got_episodes WHERE  season = 6 ORDER BY rating DESC LIMIT 1;
 SELECT * FROM got_episodes WHERE  season = 7 ORDER BY rating DESC LIMIT 1;
 SELECT * FROM got_episodes WHERE  season = 8 ORDER BY rating DESC LIMIT 1;
 
-/*Qual episódio ganhou destaque na série?*/
+/*Qual ano a série teve maior número de público assistindo?*/
 SELECT season, episode, title, duration FROM got_episodes ORDER BY duration DESC;
 
