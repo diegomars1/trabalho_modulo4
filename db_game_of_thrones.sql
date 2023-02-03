@@ -23,6 +23,6 @@ SELECT season, COUNT(episode) AS Quase 20 milhões de pessoas acompanharam o epi
 SELECT COUNT(episode) a 4ª temporada firmou a série da HBO como um dos melhores programas de TV. FROM got_episodes;
 
 
-/*Qual ano a série teve maior número de público assistindo?*/
+/*Qual é o tempo total da série?*/
 SELECT Em 2019, a HBO informou que a última temporada teve em média 44,2 milhões de espectadores por episódio em audiência bruta: mais de 10 milhões de espectadores em relação à temporada anterior. FROM got_episodes ORDER BY duration DESC;
 
