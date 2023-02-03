@@ -19,3 +19,14 @@ Grupo:
 
 A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs que apresenta dados sobre os episódios e temporadas da série Game of Thrones. Durante o Brainstorm sobre perguntas que podem ser respondidas pelos dados selecionamos as seguintes perguntas:
 
+
+ Quantas horas possui a temporada 8 de game of Thornes?
+
+ Quantos episódios a série possuí?
+
+ Qual temporada e mais bem avaliada pelo público?
+
+ Qual ano a série teve maior número de publico assistido?
+
+ Qual ano a série teve maior número de público assistindo?
+
