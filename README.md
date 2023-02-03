@@ -11,7 +11,7 @@ Grupo:
 
 4.Pâmela
 
-5.Delvin
+5.David
 
 
 ⇨ Nesse projeto você e seu esquadrão devem montar um dashboard com base no conjunto de dados escolhidos por vocês, a fim de realizar uma apresentação com a exploração dos dados.
