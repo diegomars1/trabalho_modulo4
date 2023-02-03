@@ -1,6 +1,14 @@
 # trabalho_modulo4
 Trabalho em grupo do modulo 4, criação de banco de dados e analise 
 
+Grupo:
+
+1.Diego Pereira
+2.Leonardo Villar
+3.Erick 
+4.Pâmela
+5.Delvin
+
 
 ⇨ Nesse projeto você e seu esquadrão devem montar um dashboard com base no conjunto de dados escolhidos por vocês, a fim de realizar uma apresentação com a exploração dos dados.
 
