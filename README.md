@@ -28,5 +28,5 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
  Qual ano a série teve maior número de publico assistido?
 
- Qual ano a série teve maior número de público assistindo?
+ Qual episodio mais bem avaliado pelo publico?
 
