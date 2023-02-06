@@ -24,9 +24,6 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 
 
-
-
-
 Abaixo consta o script de criação do banco de dados .
 
 CREATE DATABASE db_game_of_thrones;
