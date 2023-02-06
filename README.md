@@ -7,11 +7,12 @@ Grupo:
 
 2.Leonardo Villar
 
-3.Erick 
+3.Erick Vieira
 
-4.Pâmela
+4.Pâmela Brasil
 
-5.David
+5.David Silva 
+
 
 
 ⇨ Nesse projeto você e seu esquadrão devem montar um dashboard com base no conjunto de dados escolhidos por vocês, a fim de realizar uma apresentação com a exploração dos dados.
@@ -19,45 +20,34 @@ Grupo:
 
 A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs que apresenta dados sobre os episódios e temporadas da série Game of Thrones. Durante o Brainstorm sobre perguntas que podem ser respondidas pelos dados selecionamos as seguintes perguntas:
 
+*Quantos minutos no total tem a série?*
+
+*Quantas temporadas a série possui?*
+
+*Quantos episódios a série possui?*
+
+*Quantos episódios cada temporada possui?*
+
+*Qual o episódio com menor avaliação da série?*
+
+*Qual o episódio mais bem avaliado de cada temporada?*
+
+*Qual episódio com maior duração?*
+
+
+**Abaixo uma prévia do nosso Dashboard:**
+
+
+
+![WhatsApp Image 2023-02-05 at 21 19 33](https://user-images.githubusercontent.com/67666130/216856684-29f5258e-3527-42d1-b946-826fe4a30729.jpeg)
 
 
 
 
 
-Abaixo consta o script de criação do banco de dados .
-
-CREATE DATABASE db_game_of_thrones;
-
-USE db_game_of_thrones;
-
-CREATE DATABASE db_game_of_thrones;
-USE db_game_of_thrones;
-CREATE TABLE GOT_episodes (
-    id INT NOT NULL AUTO_INCREMENT,
-    season INT NOT NULL,
-    episode INT NOT NULL,
-    title VARCHAR(100) NOT NULL,
-    rating DECIMAL(10 , 1) NOT NULL,
-    duration INT NOT NULL,
-    PRIMARY KEY (id)
-);
 
 
 
 
 
-/*Quantas horas possui a temporada 8 de game of Thornes?*/
-SELECT COUNT(DISTINCT season) AS Ao todo, todas as oito temporadas de Game Of Thrones levariam 70 horas e 14 minutos para assistir .FROM got_episodes;
 
-/*Quantos episódios a série possuí?*/
-SELECT COUNT(episode) AS a serie possui um total de 73 episodios FROM got_episodes;
-
-/*Qual temporada e mais bem avaliada pelo público?*/
-SELECT season, COUNT(episode) AS a 4ª temporada firmou a série da HBO como um dos melhores programas de TV. FROM got_episodes GROUP BY season;
-
-/*Qual episódio ganhou destaque na série?*/
-SELECT COUNT(episode) O episodio 10 da sexta temporada ganha disparado pelo publico como o mais bem avaliado. FROM got_episodes;
-
-
-/*Qual ano a serie teve seu maior publico?*/
-SELECT Em 2019, a HBO informou que a última temporada teve em média 44,2 milhões de espectadores por episódio em audiência bruta: mais de 10 milhões de espectadores em relação à temporada anterior. FROM got_episodes ORDER BY duration DESC;
